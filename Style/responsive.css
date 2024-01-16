@@ -1,0 +1,68 @@
+@media screen and (max-width: 600px) {
+    .sub-container {
+      margin-top: 1rem;
+      margin-left: 2rem;
+    }
+    .sub-container h3 {
+      font-size: 1.5rem;
+    }
+    .navbar {
+      display: none;
+    }
+    .menu-cdn {
+      display: block;
+      display: visible;
+    }
+    .menu-cdn i {
+      font-size: 2.5rem;
+      margin-top: 1.5rem;
+      margin-right: 40px;
+    }
+    /* Banner Start */
+      .banner-img img{
+        width: 100%;
+        height: 500px;
+        border-radius: 30px;
+        object-fit: cover;
+        background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+       }
+       .banner-text h3 {
+         font-size: 22px;
+         margin-top: 70px;
+         margin-left: 37px;
+         margin-bottom: 12px;
+       }
+       .banner-text p {
+         font-size: 14px;
+         line-height: 1.7;
+         margin-bottom: 15px;
+       }
+       .banner .inner-banner-text {
+         flex-direction: column;
+         padding: 20px;
+       }
+       .inner-banner-text input {
+         width: 230px;
+         height: 50px;
+         text-align: start;
+       }
+
+       /* Content Start */
+       .content{
+        flex-direction: column;
+      }
+      .content1{
+        margin-bottom: 30px;
+      }
+      .content1 > h3{
+        font-size: 30px;
+      }
+      /* .content2 > img{
+        width: 60%;
+        margin-left: 30px;
+      } */
+      .content2 img{
+        display: none;
+
+      }
+}
