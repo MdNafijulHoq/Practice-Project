@@ -1,3 +1,5 @@
+
+                                    /*iPhone XR, XS Max - 414 x 896 */
 @media screen and (max-width: 600px) {
     .sub-container {
       margin-top: 1rem;
@@ -95,5 +97,8 @@
         text-align: center;
         margin-top: 100px;
         margin-right: 30px;
+      }
+      .newsletter{
+        display: none;
       }
 } 
